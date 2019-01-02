@@ -1,0 +1,6 @@
+- numbers = (1..1000)
+= render partial: 'num', collection: numbers, as: :num
+
+- numbers.each do |num|
+  = render 'num', num: num
+- numbers = (1..1000)
